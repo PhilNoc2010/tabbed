@@ -36,3 +36,21 @@
     transform: rotate(360deg);
   }
 }
+.tabrow{
+  display: flex;
+}
+.tab{
+  border: 2px solid black;
+  margin: 5px;
+  text-align: center;
+  padding: 10px;
+}
+
+.gotfocus{
+  background-color: black;
+  color: white;
+}
+.lostfocus{
+  background-color: white;
+  color: black;
+}
